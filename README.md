@@ -76,12 +76,12 @@ Each model was evaluated in the same way as Random Forest:
 
 ## Section 5 – Performance Comparison Table
 
-| Model            | Best Accuracy | Accuracy @ n_estimators | Best AUC  | AUC @ n_estimators |
+| Model            | Best Accuracy | Accuracy at n_estimators | Best AUC  | AUC at n_estimators |
 |------------------|----------------|--------------------------|-----------|---------------------|
-| Random Forest     | 0.838X         | 50                       | 0.90XX    | 250                 |
-| AdaBoost          | 0.8461         | 100                      | 0.8974    | 100                 |
+| Random Forest     | 0.8385         | 50                       | 0.8810    | 500                 |
+| AdaBoost          | 0.8461         | 100                      | 0.8974    | 150                 |
 | Gradient Boosting | 0.8482         | 100                      | 0.8993    | 150                 |
-| XGBoost           | 0.8450         | 50                       | 0.8966    | 50                  |
+| XGBoost           | 0.8450         | 50                       | 0.8968    | 50                  |
 
 > *Gradient Boosting showed the best overall AUC and accuracy in this assignment.*
 
